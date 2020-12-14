@@ -13,24 +13,60 @@
 <div class="container-fluid">
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-message" role="tab" aria-controls="nav-home" aria-selected="true">
                 <div class="nav-img"></div>
                 <div class="nav-title">消息</div>
             </a>
             <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
-                <div class="nav-img" style="background: url('img/e0.png')"></div>
+                <div class="nav-img" style="background: url('img/e0.png');    background-size: cover;"></div>
                 <div class="nav-title">网络</div>
             </a>
-            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
-                <div class="nav-img"></div>
-                <div class="nav-title">局域网</div>
-            </a>
+<!--            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">-->
+<!--                <div class="nav-img"></div>-->
+<!--                <div class="nav-title">局域网</div>-->
+<!--            </a>-->
+<!--         -->
         </div>
     </nav>
-    <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+    <div class="container-fluid" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-message" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="row center-box">
+                <div class="col-1"></div>
+                <div class="col-3 message-title-box">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link message-item active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><div class="message-title">房租过期未付</div></a>
+                        <a class="nav-link message-item" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><div class="message-title">超级医药彩票##</div></a>
+                        <a class="nav-link message-item" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><div class="message-title">纳米凝胶诈骗警告！</div></a>
+                        <a class="nav-link message-item" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><div class="message-title">你已遭到攻击！</div></a>
+                    </div>
+                </div>
+                <div class="col-7 content-box">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="content-title">房屋过期未支付</div>
+                                    <p><span class="message-people">发件人:</span><span class="message-people-name">超级摩天楼物业管理</span></p>
+                                    <p><span class="message-people">收件人:</span><span class="message-people-name">V</span></p>
+                                </div>
+                            </div>
+                            <div class="row message-content">
+                                    亲爱的先生/女士,<br>
+                                    有记录显示,我们尚未收到本月您在超级摩天楼H10的租金。
+                                    根据租赁协议VD-233015722/2077,如果您继续拖欠支付,
+                                    您将会强制驱逐出该地产。
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">2</div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">3</div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">4</div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+<!--        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>-->
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"

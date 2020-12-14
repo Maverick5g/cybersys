@@ -18,7 +18,6 @@ a:hover{
     padding-left: 150px;
 }
 .nav-item{
-    width: 360px;
     border-radius: 0;
     border-bottom: none;
 
@@ -54,4 +53,63 @@ a:hover{
 
 .nav-tabs {
     border-bottom: 1px solid rgb(123,186,181);
+}
+.center-box{
+    margin-top: 20px;
+    height: 500px;
+
+}
+.message-item{
+    background: url('../img/m1.png') no-repeat;
+    background-size:100% 100%;
+    height: 90px;
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: rgb(71,212,224);
+    background: url('../img/m2.png') no-repeat;
+    background-size:100% 100%;
+}
+.content-box{
+    border-right: 1px solid rgb(71,212,224);
+    border-top: 1px solid rgb(71,212,224);
+    border-bottom: 1px solid rgb(71,212,224);
+    padding-top: 10px;
+}
+.message-title{
+    font-size: 28px;
+    margin-left: 55px;
+    margin-top: 20px;
+    font-weight: 150;
+}
+.message-title-box{
+    padding-top: 10px;
+    border-left: 1px solid rgb(71,212,224);
+    border-top: 1px solid rgb(71,212,224);
+    border-bottom: 1px solid rgb(71,212,224);
+}
+.content-title{
+    color: rgb(206,231,221);
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.message-people{
+    color: rgb(41, 99, 109);
+    font-size: 20px;
+}
+.message-people-name{
+    font-size: 20px;
+    color: rgb(237,255,251);
+    padding-left: 10px;
+}
+.message-content{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(230,219,204);
+    padding-left: 10px;
 }
