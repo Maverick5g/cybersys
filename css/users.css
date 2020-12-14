@@ -1,0 +1,49 @@
+body {
+    color: rgb(71,212,224);
+    /*color: rgb(53, 144, 153);*/
+    background: black;
+}
+.container{
+    margin-top: 150px;
+
+}
+
+.userbox {
+    outline: 1px solid rgb(71,212,224);
+    margin-left: 190px;
+    margin-right: 190px;
+
+}
+
+.users{
+    height: 450px;
+    outline: 1px solid rgb(71,212,224);
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.users:last-of-type{
+    margin-right: 0px;
+}
+.users:hover{
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 0 20px 0 rgb(71,212,224);
+}
+.userimg{
+    margin-top: 45px;
+}
+.userimg svg{
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.userimg svg line{
+    shape-rendering: crispEdges;
+}
+.username{
+    font-size: 35px;
+    font-weight: 100;
+   transform: rotate(-90deg);
+    position:absolute;right:-45px;bottom:70px;
+    width: 150px;
+}

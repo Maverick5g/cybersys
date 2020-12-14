@@ -1,0 +1,57 @@
+body{
+    background: #000;
+    color: rgb(71,212,224);
+}
+*{
+    /*outline: 1px solid white;*/
+}
+a{
+    color: rgb(71,212,224);
+    font-size: 35px;
+}
+a:hover{
+    color: rgb(71,212,224);
+}
+.nav-tabs{
+    padding-top: 30px;
+    height: 125px;
+    padding-left: 150px;
+}
+.nav-item{
+    width: 360px;
+    border-radius: 0;
+    border-bottom: none;
+
+
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: rgb(123,186,181);
+    border-radius: 0;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-radius: 0;
+    color: rgb(71,212,224);
+    background-color: #000;
+    border-color:rgb(123,186,181) rgb(123,186,181)  #000;
+    border-bottom: none;
+}
+.nav-img{
+    width: 65px;
+    height: 65px;
+    background: url('../img/q0.png') ;
+    background-size: cover;
+}
+.nav-title{
+    width: 252px;
+    height: 73px;
+    background: url('../img/t0.png') ;
+    margin-left: 70px;
+    margin-top: -65px;
+    font-weight: 200;
+    padding-left: 20px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid rgb(123,186,181);
+}
